@@ -23,6 +23,10 @@ alias startdocker='sudo systemctl start docker'
 alias stopdocker='sudo systemctl stop docker'
 alias ld='sudo lazydocker'
 alias lg='lazygit'
+alias randomWallpaper='./wallpaper.sh'
+setWallpaper(){
+  swww img "$HOME/Pictures/wallpapers/$1" --transition-type any --transition-duration 1
+}
 #load all functions for C# work
 . ~/.bashDotNet.sh
 
