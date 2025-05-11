@@ -23,7 +23,6 @@ alias startdocker='sudo systemctl start docker'
 alias stopdocker='sudo systemctl stop docker'
 alias ld='sudo lazydocker'
 alias lg='lazygit'
-
 #load all functions for C# work
 . ~/.bashDotNet.sh
 
