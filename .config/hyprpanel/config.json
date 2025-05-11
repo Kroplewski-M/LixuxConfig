@@ -15,6 +15,7 @@
         "volume",
         "network",
         "bluetooth",
+        "battery",
         "notifications",
         "power"
       ]
@@ -406,5 +407,6 @@
   "menus.clock.weather.enabled": false,
   "menus.clock.weather.location": "",
   "theme.bar.buttons.modules.microphone.enableBorder": false,
-  "theme.bar.scaling": 80
+  "theme.bar.scaling": 80,
+  "menus.power.sleep": "systemctl suspend"
 }

@@ -27,6 +27,12 @@ alias randomWallpaper='./wallpaper.sh'
 setWallpaper(){
   swww img "$HOME/Pictures/wallpapers/$1" --transition-type any --transition-duration 1
 }
+
+shh(){
+  hyprlock &
+  sleep 1
+  systemctl suspend
+}
 #load all functions for C# work
 . ~/.bashDotNet.sh
 
