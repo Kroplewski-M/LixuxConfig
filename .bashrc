@@ -2,6 +2,7 @@
 # ~/.bashrc
 #
 export PATH=$PATH:/home/mateuszk/.local/bin
+export CLIPHIST_LIMIT=100
 eval "$(oh-my-posh init bash)"
 
 eval "$(fzf --bash)"
