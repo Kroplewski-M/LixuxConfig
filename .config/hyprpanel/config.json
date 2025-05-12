@@ -21,7 +21,7 @@
       ]
     }
   },
-  "theme.font.size": "0.9rem",
+  "theme.font.size": "1.1rem",
   "theme.bar.transparent": false,
   "terminal": "ghostty",
   "menus.transition": "crossfade",
@@ -403,10 +403,18 @@
   "theme.bar.buttons.modules.worldclock.icon_background": "#8fbcbb",
   "theme.bar.buttons.modules.worldclock.icon": "#8fbcbb",
   "theme.bar.buttons.modules.worldclock.border": "#8fbcbb",
-  "menus.clock.time.military": true,
+  "menus.clock.time.military": false,
   "menus.clock.weather.enabled": false,
   "menus.clock.weather.location": "",
   "theme.bar.buttons.modules.microphone.enableBorder": false,
-  "theme.bar.scaling": 80,
-  "menus.power.sleep": "systemctl suspend"
+  "theme.bar.scaling": 70,
+  "menus.power.sleep": "systemctl suspend",
+  "theme.bar.dropdownGap": "2.1em",
+  "bar.workspaces.monitorSpecific": true,
+  "bar.workspaces.show_icons": false,
+  "bar.network.label": false,
+  "bar.network.showWifiInfo": true,
+  "bar.network.truncation": false,
+  "theme.bar.buttons.systray.enableBorder": false,
+  "scalingPriority": "both"
 }
