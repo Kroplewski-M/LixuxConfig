@@ -19,7 +19,7 @@ eval "$(zoxide init bash)"
 #zoxide
 alias cd='z'
 
-
+alias cw='cliphist wipe'
 alias startdocker='sudo systemctl start docker'
 alias stopdocker='sudo systemctl stop docker'
 alias ld='sudo lazydocker'
