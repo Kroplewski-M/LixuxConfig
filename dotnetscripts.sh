@@ -2,15 +2,15 @@
 alias starttailwind='npx tailwindcss -i ./wwwroot/css/app.css -o ./wwwroot/css/min.css --watch'
 
 #c sharp add migration
-EfAddMigration() {
+efaddMigration() {
   dotnet ef migrations add $1 --project InfrastructureLayer/InfrastructureLayer.csproj --startup-project CodeConnect.WebAPI/CodeConnect.WebAPI.csproj --context InfrastructureLayer.ApplicationDbContext
 }
 #c sharp update database
-EfUpdateDatabase() {
+efupdateDatabase() {
   dotnet ef database update --project InfrastructureLayer/InfrastructureLayer.csproj --startup-project CodeConnect.WebAPI/CodeConnect.WebAPI.csproj --context InfrastructureLayer.ApplicationDbContext
 }
 #dotnet test and code coverage
-DotnetTestCoverage(){
+dotnettestcoverage(){
 
  dotnet test --collect:"XPlat Code Coverage"
 

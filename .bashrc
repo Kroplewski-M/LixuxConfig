@@ -30,7 +30,7 @@ setWallpaper(){
 }
 
 #load all functions for C# work
-. ~/.bashDotNet.sh
+. ~/dotnetscripts.sh
 
 fastfetch
 . "$HOME/.cargo/env"
