@@ -14,7 +14,7 @@ startdocker(){
 startmssql(){
   startdocker || return 1
   echo "Starting container 'sql1'..."
-  if sudo docker start sql1 then
+  if sudo docker start sql1; then
     echo "Container 'sql1' started successfully."
   else
     echo "Failed to start container 'sql1'."
