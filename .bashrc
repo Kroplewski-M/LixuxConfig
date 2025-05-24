@@ -32,5 +32,6 @@ setWallpaper(){
 . ~/dockerscripts.sh
 . ~/wifi.sh
 . ~/locksuspend.sh
+. ~/music.sh
 fastfetch
 . "$HOME/.cargo/env"
