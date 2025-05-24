@@ -31,5 +31,6 @@ setWallpaper(){
 . ~/dotnetscripts.sh
 . ~/dockerscripts.sh
 . ~/wifi.sh
+. ~/locksuspend.sh
 fastfetch
 . "$HOME/.cargo/env"

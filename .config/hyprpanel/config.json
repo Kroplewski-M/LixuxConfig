@@ -416,5 +416,6 @@
   "bar.network.showWifiInfo": true,
   "bar.network.truncation": false,
   "theme.bar.buttons.systray.enableBorder": false,
-  "scalingPriority": "both"
+  "scalingPriority": "both",
+  "bar.autoHide": "never"
 }
