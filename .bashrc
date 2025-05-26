@@ -33,5 +33,6 @@ setWallpaper(){
 . ~/wifi.sh
 . ~/locksuspend.sh
 . ~/music.sh
+. ~/monitors.sh
 fastfetch
 . "$HOME/.cargo/env"
