@@ -26,7 +26,7 @@ alias randomwallpaper='./wallpaper.sh'
 setWallpaper(){
   swww img "$HOME/Pictures/wallpapers/$1" --transition-type any --transition-duration 1
 }
-alias listsnapshots = "sudo snapper -c root ls"
+alias listsnapshots='sudo snapper -c root ls'
 #load all functions for C# work
 . ~/dotnetscripts.sh
 . ~/dockerscripts.sh
