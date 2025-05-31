@@ -2,7 +2,6 @@
 # ~/.bashrc
 #
 export PATH=$PATH:/home/mateuszk/.local/bin
-export CLIPHIST_LIMIT=100
 eval "$(oh-my-posh init bash)"
 
 eval "$(fzf --bash)"
@@ -19,11 +18,10 @@ eval "$(zoxide init bash)"
 #zoxide
 alias cd='z'
 
-alias cw='cliphist wipe'
 alias ld='sudo lazydocker'
 alias lg='lazygit'
 alias randomwallpaper='./wallpaper.sh'
-setWallpaper(){
+setWallpaper() {
   swww img "$HOME/Pictures/wallpapers/$1" --transition-type any --transition-duration 1
 }
 alias listsnapshots='sudo snapper -c root ls'

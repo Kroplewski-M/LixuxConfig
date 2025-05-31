@@ -1,0 +1,51 @@
+
+# alacritty.toml
+
+# Colors (Nord theme)
+[colors.primary]
+background = "#2E3440"
+foreground = "#D8DEE9"
+
+[colors.cursor]
+text = "#2E3440"
+cursor = "#88C0D0"
+
+[colors.selection]
+text = "#2E3440"
+background = "#81A1C1"
+
+[colors.normal]
+black = "#3B4252"
+red = "#BF616A"
+green = "#A3BE8C"
+yellow = "#EBCB8B"
+blue = "#81A1C1"
+magenta = "#B48EAD"
+cyan = "#88C0D0"
+white = "#E5E9F0"
+
+[colors.bright]
+black = "#4C566A"
+red = "#BF616A"
+green = "#A3BE8C"
+yellow = "#EBCB8B"
+blue = "#81A1C1"
+magenta = "#B48EAD"
+cyan = "#8FBCBB"
+white = "#ECEFF4"
+
+# Font config (optional)
+[font]
+normal.family = "JetBrainsMono Nerd Font"
+normal.style = "Regular"
+size = 12.0
+
+# Scrolling
+[scrolling]
+history = 10000
+multiplier = 3
+
+# Window padding
+[window.padding]
+x = 8
+y = 8
