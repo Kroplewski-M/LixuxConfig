@@ -23,7 +23,7 @@
   },
   "theme.font.size": "1.1rem",
   "theme.bar.transparent": false,
-  "terminal": "ghostty",
+  "terminal": "alacritty",
   "menus.transition": "crossfade",
   "theme.bar.floating": false,
   "theme.bar.location": "top",
