@@ -1,7 +1,7 @@
 #
 # ~/.bashrc
 #
-export PATH=$PATH:/home/mateuszk/.local/bin
+export PATH=$PATH:/home/mateuszk/.local/bin:/home/mateuszk/.dotnet/tools
 eval "$(oh-my-posh init bash --config ~/poshthemes/agnoster.json)"
 
 eval "$(fzf --bash)"
