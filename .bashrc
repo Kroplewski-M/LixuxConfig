@@ -2,10 +2,9 @@
 # ~/.bashrc
 #
 export PATH=$PATH:/home/mateuszk/.local/bin:/home/mateuszk/.dotnet/tools
-eval "$(oh-my-posh init bash --config ~/poshthemes/agnoster.json)"
 
 eval "$(fzf --bash)"
-
+eval "$(oh-my-posh init bash --config ~/poshthemes/agnoster.json)"
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
