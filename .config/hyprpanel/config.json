@@ -417,5 +417,8 @@
   "bar.network.truncation": false,
   "theme.bar.buttons.systray.enableBorder": false,
   "scalingPriority": "both",
-  "bar.autoHide": "never"
+  "bar.autoHide": "never",
+  "bar.customModules.storage.paths": [
+    "/"
+  ]
 }
