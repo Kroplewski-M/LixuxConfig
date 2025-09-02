@@ -2,15 +2,19 @@
 # ~/.bashrc
 #
 export PATH=$PATH:/home/mateuszk/.local/bin:/home/mateuszk/.dotnet/tools
+export DOTNET_ROOT=/usr/share/dotnet/
+export PATH=$DOTNET_ROOT:$PATH
+export TERM='xterm-256color'
 
+. "$HOME/.cargo/env"
 eval "$(fzf --bash)"
-eval "$(oh-my-posh init bash --config ~/poshthemes/agnoster.json)"
+eval "$(oh-my-posh init bash --config ~/poshthemes/paradox.json)"
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
-PS1='[\u@\h \W]\$ '
+PS1='\u '
 
 eval "$(zoxide init bash)"
 
@@ -32,7 +36,3 @@ alias listsnapshots='sudo snapper -c root ls'
 . ~/music.sh
 . ~/monitors.sh
 fastfetch
-. "$HOME/.cargo/env"
-
-# Shopify Hydrogen alias to local projects
-alias h2='$(npm prefix -s)/node_modules/.bin/shopify hydrogen'

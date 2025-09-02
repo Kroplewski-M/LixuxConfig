@@ -15,7 +15,6 @@
         "volume",
         "network",
         "bluetooth",
-        "battery",
         "notifications",
         "power"
       ]
@@ -403,9 +402,9 @@
   "theme.bar.buttons.modules.worldclock.icon_background": "#8fbcbb",
   "theme.bar.buttons.modules.worldclock.icon": "#8fbcbb",
   "theme.bar.buttons.modules.worldclock.border": "#8fbcbb",
-  "menus.clock.time.military": false,
+  "menus.clock.time.military": true,
   "menus.clock.weather.enabled": false,
-  "menus.clock.weather.location": "",
+  "menus.clock.weather.location": "Los Angeles",
   "theme.bar.buttons.modules.microphone.enableBorder": false,
   "theme.bar.scaling": 70,
   "menus.power.sleep": "systemctl suspend",
@@ -420,5 +419,22 @@
   "bar.autoHide": "never",
   "bar.customModules.storage.paths": [
     "/"
-  ]
+  ],
+  "theme.bar.buttons.network.enableBorder": false,
+  "bar.clock.format": "%a %b %d  %H:%M:%S",
+  "bar.clock.showIcon": false,
+  "bar.clock.showTime": true,
+  "theme.bar.buttons.media.enableBorder": false,
+  "bar.notifications.show_total": false,
+  "notifications.ignore": [
+    "Rider"
+  ],
+  "theme.osd.enable": false,
+  "theme.osd.orientation": "vertical",
+  "theme.osd.location": "right",
+  "menus.volume.raiseMaximumVolume": false,
+  "theme.bar.menus.monochrome": false,
+  "theme.bar.menus.opacity": 90,
+  "menus.clock.weather.key": "",
+  "menus.clock.weather.unit": "metric"
 }
